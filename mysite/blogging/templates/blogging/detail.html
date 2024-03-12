@@ -2,10 +2,10 @@
 {% block content %}
 <h1>{{ post.title }}</h1>
 <div class="post-body">
-    {{ post.text }}
-    {{ post.author }}
-    {{ post.created_date }}
-    {{ post.modified_date }}
-    {{ post.published_date }}
+    {{ post.text }} <br>
+    Author: {{ post.author }} <br>
+    Created: {{ post.created_date }} <br>
+    Last Modified: {{ post.modified_date }} <br>
+    Published: {{ post.published_date }}
 </div>
 {% endblock %}
