@@ -6,7 +6,7 @@ from .models import Post
 
 
 def list_view(request):
-    context = {'polls': Post.objects.all()}
+    context = {'posts': Post.objects.all()}
     return render(request, 'blogging/list.html', context)
 
 
