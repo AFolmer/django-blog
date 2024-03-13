@@ -4,21 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Code up to urls and views for polling app" />
+    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Test created and passed for blogging">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blogging/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blogging/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blogging/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AFolmer"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AFolmer&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -30,10 +44,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dPoLMrNHhTd7yTtkMMeW3SKoej" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,11 +55,68 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation.executor": "Run",
+    "Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation.executor": "Run",
+    "Python tests.Python tests for tests.PostTestCase.test_string_representation.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation">
+    <configuration name="Python tests for blogging.tests.CategoryTestCase.test_string_representation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="django-blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;blogging.tests.CategoryTestCase.test_string_representation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for blogging.tests.PostTestCase.test_string_representation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="django-blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;blogging.tests.PostTestCase.test_string_representation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.PostTestCase.test_string_representation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="django-blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/blogging" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.PostTestCase.test_string_representation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation" />
+        <item itemvalue="Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation" />
+        <item itemvalue="Python tests.Python tests for tests.PostTestCase.test_string_representation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +165,47 @@
       <option name="project" value="LOCAL" />
       <updated>1709926201099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Code up to urls and views for polling app">
+      <option name="closed" value="true" />
+      <created>1709926604286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709926604287</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial views and poll interface work">
+      <option name="closed" value="true" />
+      <created>1710021723268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710021723268</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mid-update blogging views to match polling">
+      <option name="closed" value="true" />
+      <created>1710207208937</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710207208938</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed error, blogging list and detail views work">
+      <option name="closed" value="true" />
+      <created>1710262858408</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710262858408</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Test created and passed for blogging">
+      <option name="closed" value="true" />
+      <created>1710266215424</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710266215424</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +222,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Even more base files" />
     <MESSAGE value="Code up to urls and views for polling app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code up to urls and views for polling app" />
+    <MESSAGE value="Initial views and poll interface work" />
+    <MESSAGE value="Mid-update blogging views to match polling" />
+    <MESSAGE value="Fixed error, blogging list and detail views work" />
+    <MESSAGE value="Test created and passed for blogging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test created and passed for blogging" />
   </component>
 </project>
