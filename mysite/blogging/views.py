@@ -3,11 +3,16 @@
 from django.shortcuts import render
 from django.http import Http404, HttpResponse, HttpResponseRedirect
 from .models import Post
+from django.template import loader
 
 
 def list_view(request):
-    context = {'posts': Post.objects.all()}
-    return render(request, 'blogging/list.html', context)
+    published = Post.objects.exclude(published_date__exact=None)
+    posts = published.order_by('-published_date')
+    template = loader.get_template('blogging/list.html')
+    context = {'posts': posts}
+    body = template.render(context)
+    return HttpResponse(body, content_type='text/html')
 
 
 def detail_view(request, post_id):
