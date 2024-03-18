@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Blogging test list only published passes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blogging/templates/blogging/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/templates/blogging/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blogging/templates/blogging/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/templates/blogging/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blogging/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blogging/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/views.py" afterDir="false" />
+    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Blogging detail view updated to match exercise">
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710788511622</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Blogging detail view updated to match exercise">
+      <option name="closed" value="true" />
+      <created>1710798445090</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710798445090</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +265,7 @@
     <MESSAGE value="Added stub view to blogging app" />
     <MESSAGE value="Updated blogging list view to match exercise" />
     <MESSAGE value="Blogging test list only published passes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blogging test list only published passes" />
+    <MESSAGE value="Blogging detail view updated to match exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blogging detail view updated to match exercise" />
   </component>
 </project>
