@@ -45,7 +45,6 @@ class FrontEndTestCase(TestCase):
                 self.assertEqual(resp.status_code, 404)
 
 
-
 class PostTestCase(TestCase):
     fixtures = ['blogging_test_fixture.json',]
 
