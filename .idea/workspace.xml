@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="CSS file included but doesn't run">
+    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Updated settings to include STATICFILES_DIRS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blogging/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blogging/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
@@ -252,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710800693558</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated settings to include STATICFILES_DIRS">
+      <option name="closed" value="true" />
+      <created>1710803123933</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710803123933</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +287,7 @@
     <MESSAGE value="Blogging test list only published passes" />
     <MESSAGE value="Blogging detail view updated to match exercise" />
     <MESSAGE value="CSS file included but doesn't run" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS file included but doesn't run" />
+    <MESSAGE value="Updated settings to include STATICFILES_DIRS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated settings to include STATICFILES_DIRS" />
   </component>
 </project>

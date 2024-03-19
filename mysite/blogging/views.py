@@ -1,9 +1,8 @@
 # Views for blogging app
 
 from django.shortcuts import render
-from django.http import Http404, HttpResponse, HttpResponseRedirect
+from django.http import Http404, HttpResponse
 from .models import Post
-from django.template import loader
 
 
 def list_view(request):
