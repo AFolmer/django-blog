@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Can add categories from posts but not posts from categories">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Polling app modified to use class based views">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polling/templates/polling/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polling/templates/polling/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polling/templates/polling/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polling/templates/polling/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polling/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polling/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polling/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polling/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blogging/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blogging/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711046178438</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Polling app modified to use class based views">
+      <option name="closed" value="true" />
+      <created>1713828601204</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713828601204</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +321,7 @@
     <MESSAGE value="Added home page with links to blogging and polling" />
     <MESSAGE value="Assignment finished" />
     <MESSAGE value="Can add categories from posts but not posts from categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can add categories from posts but not posts from categories" />
+    <MESSAGE value="Polling app modified to use class based views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polling app modified to use class based views" />
   </component>
 </project>

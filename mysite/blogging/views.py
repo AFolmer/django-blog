@@ -3,23 +3,33 @@
 from django.shortcuts import render
 from django.http import Http404, HttpResponse
 from .models import Post
+from django.views.generic import ListView
+from django.views.generic.detail import DetailView
 
 
-def list_view(request):
-    published = Post.objects.exclude(published_date__exact=None)
-    posts = published.order_by('-published_date')
-    context = {'posts': posts}
-    return render(request, 'blogging/list.html', context)
+class PostListView(ListView):
+    model = Post
+    template_name = 'blogging/list.html'
+    context_object_name = 'posts'
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        return queryset.exclude(published_date__exact=None).order_by('-published_date')
 
 
-def detail_view(request, post_id):
-    published = Post.objects.exclude(published_date__exact=None)
-    try:
-        post = published.get(pk=post_id)
-    except Post.DoesNotExist:
-        raise Http404
-    context = {'post': post}
-    return render(request, 'blogging/detail.html', context)
+class PostDetailView(DetailView):
+    model = Post
+    template_name = 'blogging/detail.html'
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        return queryset
+
+    def get_object(self, queryset=None):
+        obj = super().get_object(queryset=queryset)
+        if obj is None:
+            raise Http404('Post does not exist')
+        return obj
 
 
 def stub_view(request, *args, **kwargs):
