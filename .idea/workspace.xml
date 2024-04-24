@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Added travis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blogging/templates/blogging/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blogging/templates/blogging/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.PostTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation.executor": "Run",
+    "Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation.executor": "Run",
+    "Python tests.Python tests for tests.PostTestCase.test_string_representation.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "new-blog-title"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation">
     <configuration name="Python tests for blogging.tests.CategoryTestCase.test_string_representation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="django-blog" />
@@ -312,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713895356446</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added travis">
+      <option name="closed" value="true" />
+      <created>1713978611736</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713978611736</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
