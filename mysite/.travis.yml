@@ -1,8 +1,8 @@
 language: python
 python:
- - "3.6"
+  - "3.6"
 install:
- - pip install -r requirements.text
- - python manage.py migrate
+  - pip install -r requirements.txt
+  - python manage.py migrate
 script:
- - python manage.py test
+  - python manage.py test
