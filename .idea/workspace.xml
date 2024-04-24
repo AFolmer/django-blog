@@ -46,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation.executor": "Run",
-    "Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation.executor": "Run",
-    "Python tests.Python tests for tests.PostTestCase.test_string_representation.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "new-blog-title"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.PostTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new-blog-title&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation">
     <configuration name="Python tests for blogging.tests.CategoryTestCase.test_string_representation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="django-blog" />
