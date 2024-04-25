@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Added travis" />
+    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Get ready for heroku" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.PostTestCase.test_string_representation.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;new-blog-title&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for blogging.tests.CategoryTestCase.test_string_representation.executor": "Run",
+    "Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation.executor": "Run",
+    "Python tests.Python tests for tests.PostTestCase.test_string_representation.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.Python tests for blogging.tests.PostTestCase.test_string_representation">
     <configuration name="Python tests for blogging.tests.CategoryTestCase.test_string_representation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="django-blog" />
@@ -318,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713978611736</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Get ready for heroku">
+      <option name="closed" value="true" />
+      <created>1713984757717</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713984757717</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,6 +360,7 @@
     <MESSAGE value="Polling app modified to use class based views" />
     <MESSAGE value="Blogging app modified to use class based views" />
     <MESSAGE value="Added travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added travis" />
+    <MESSAGE value="Get ready for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get ready for heroku" />
   </component>
 </project>
