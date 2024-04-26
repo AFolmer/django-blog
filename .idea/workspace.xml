@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Get ready for heroku">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="44ecdcbd-4043-4b79-9535-d2233dbcc220" name="Changes" comment="Facebook login with adjango-allauth" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -340,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714071170186</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Facebook login with adjango-allauth">
+      <option name="closed" value="true" />
+      <created>1714089550025</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1714089550025</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +377,7 @@
     <MESSAGE value="Blogging app modified to use class based views" />
     <MESSAGE value="Added travis" />
     <MESSAGE value="Get ready for heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get ready for heroku" />
+    <MESSAGE value="Facebook login with adjango-allauth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facebook login with adjango-allauth" />
   </component>
 </project>
